@@ -1,0 +1,20 @@
+<div class="academic-info-container">
+    <h2>Formação Acadêmica</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Instituição</th>
+          <th>Curso</th>
+          <th>Ano de Conclusão</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let history of academicHistory">
+          <td>{{ history.institution }}</td>
+          <td>{{ history.course }}</td>
+          <td>{{ history.year }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

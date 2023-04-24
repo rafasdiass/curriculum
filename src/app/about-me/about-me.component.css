@@ -1,0 +1,62 @@
+/* sobre-mim.css */
+
+.animated-profession {
+    animation-name: changeColor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes changeColor {
+    0% {
+      color: white;
+    }
+    50% {
+      color: red;
+    }
+    100% {
+      color: white;
+    }
+  }
+.about-me {
+    padding: 60px 0;
+    background-color: #000; /* Fundo preto */
+  }
+  
+  .about-me h1 {
+    color: #32CD32; /* Letra verde */
+  }
+  
+  .about-me h2 {
+    margin-bottom: 20px;
+    color: #fff; /* Letras brancas */
+    font-weight: bold; /* Negrito */
+  }
+  
+  .about-me h3 {
+    color: #fff; /* Letras brancas */
+  }
+  
+  .about-me p {
+    text-align: justify;
+    color: #fff; /* Letras brancas */
+  }
+  .about-me li i.bi-trophy {
+    color: #ffc107; /* Cor amarela */
+  }
+  
+  .about-me li span.prize-blender {
+    color: #ffa500; /* Laranja para prêmio Blender */
+  }
+  
+  .about-me li span.prize-bojoga {
+    color: #007bff; /* Azul para prêmio Bojoga */
+  }
+  
+  .about-me li span.prize-amostra {
+    color: #dc3545; /* Vermelho para prêmio Amostra Cearense de Jogos */
+  }
+  
+  .about-me li span.article-sbgames {
+    color: #6f42c1; /* Roxo para artigo SBGames */
+  }
+  

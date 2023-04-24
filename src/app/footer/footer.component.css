@@ -1,0 +1,33 @@
+.social-icons-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Alinha no canto direito */
+  }
+  
+  .social-icons-footer a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px; /* Tamanho maior */
+    height: 60px; /* Tamanho maior */
+    border-radius: 50%;
+    background-color: #007bff; /* Cor azul */
+    margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .social-icons-footer a:hover {
+    background-color: #dc3545; /* Cor vermelha no hover */
+  }
+  
+  .social-icons-footer i {
+    font-size: 32px;
+    color: white; /* Cor branca */
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .social-icons-footer a:hover i {
+    color: white;
+    transform: scale(1.2); /* Aumenta o tamanho do ícone no hover */
+  }
+  

@@ -1,0 +1,41 @@
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .skill-logo i {
+    font-size: 2em;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .html5 i {
+    color: #E44D26;
+  }
+  
+  .css3 i {
+    color: #264DE4;
+  }
+  
+  .bootstrap i {
+    color: #7952B3;
+  }
+  
+  .angular i {
+    color: #DD1B16;
+  }
+  
+  .figma i {
+    color: #F24E1E;
+  }
+  
+  .javascript i {
+    color: #F0DB4F;
+  }
+  
+  .sql-server i {
+    color: #CC2927;
+  }
+  
